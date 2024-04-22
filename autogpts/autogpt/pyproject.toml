@@ -21,7 +21,7 @@ serve = "autogpt.app.cli:serve"
 
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11.5"
 auto-gpt-plugin-template = {git = "https://github.com/Significant-Gravitas/Auto-GPT-Plugin-Template", rev = "0.1.0"}
 # autogpt-forge = { path = "../forge" }
 autogpt-forge = {git = "https://github.com/Significant-Gravitas/AutoGPT.git", rev = "ab05b7ae70754c063909", subdirectory = "autogpts/forge"}
@@ -43,7 +43,7 @@ gTTS = "^2.3.1"
 hypercorn = "^0.14.4"
 inflection = "*"
 jsonschema = "*"
-numpy = "*"
+numpy = {version = ">=1.23.2,<1.26.0"}
 openai = "^1.7.2"
 orjson = "^3.8.10"
 Pillow = "*"
@@ -64,6 +64,7 @@ spacy = "^3.0.0"
 tenacity = "^8.2.2"
 tiktoken = "^0.5.0"
 webdriver-manager = "*"
+onnxruntime = "1.17.1"
 
 # OpenAI and Generic plugins import
 openapi-python-client = "^0.14.0"

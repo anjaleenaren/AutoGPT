@@ -19,7 +19,7 @@ cli = "autogpt.core.runner.cli_app.cli:autogpt"
 cli-web = "autogpt.core.runner.cli_web_app.cli:autogpt"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11.5"
 agent-protocol = "^0.3.0"
 click = "^8.1.7"
 colorama = "^0.4.6"
